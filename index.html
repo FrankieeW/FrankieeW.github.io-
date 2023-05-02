@@ -18,7 +18,12 @@
 </head>
 <body>
 <script src="/uitil/visitor-info.js"></script>
-    <header>
+window.addEventListener('load', function() {
+fetch('https://api.ipify.org?format=json')
+.then(response => response.json())
+.then(json => getIP(json));
+});
+<header>
           Frankie WANG
 
     </header>
