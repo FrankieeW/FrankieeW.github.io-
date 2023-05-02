@@ -26,7 +26,7 @@ function getIP(json) {
         var repoOwner = 'FrankieeW';
         var repoName = 'FrankieeW.github.io-';
         var path = 'Data/visitor.json';
-        var accessToken = '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';
+        var accessToken = '';
 
         var apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${path}`;
 
