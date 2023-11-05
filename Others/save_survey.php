@@ -1,6 +1,8 @@
 <?php
 // 检查是否有数据通过POST方法提交
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    date_default_timezone_set('Asia/Shanghai'); // 设置为上海时区
+    $current_time = date('Y-m-d H:i:s');
 
     // 将POST数据收集到变量中
     $gender = $_POST['gender'] ?? '未填写';
