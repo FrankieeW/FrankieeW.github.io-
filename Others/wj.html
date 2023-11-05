@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>大学生人生观与人生理想调查问卷</title>
-</head>
-<body>
+  <html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <title>大学生人生观与人生理想调查问卷</title>
+    <!-- 引入jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 引入Google客户端API库 -->
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+  </head>
+  <body>
 
 <h1>大学生人生观与人生理想调查问卷</h1>
 <p>尊敬的同学们：<br>您好！本问卷旨在了解当前大学生的人生观和人生理想。您的真实回答将对我们的研究提供重要数据。请您根据自身情况，认真、客观地选择或填写。本调查保证您的个人信息及答案的匿名性和保密性，请放心填写。</p>
 
-<form action="save_survey.php" method="post">
+<form id="surveyForm">
 
   <h2>基本信息</h2>
 
@@ -75,8 +79,66 @@
   <p>13. 您认为现代社会给年轻人实现人生理想提供了哪些机遇和挑战？</p>
   <textarea name="opportunities_challenges" rows="3" cols="50"></textarea>
 
-  <p><input type="submit" value="提交问卷"></p>
+  <p><input type="button" id="submitButton" value="提交问卷"></p>
 </form>
 
-</body>
+<script>
+  // 为按钮点击事件添加事件监听器
+  $('#submitButton').click(function(e) {
+    e.preventDefault(); // 阻止表单的默认提交行为
+
+    // 从表单元素中收集数据
+    var formData = $('#surveyForm').serializeArray();
+
+    // 处理表单数据并发送到SheetDB
+    handleFormSubmit(formData);
+  });
+
+  function handleFormSubmit(formData) {
+    // 将formData转换为一个JavaScript对象，以便更容易处理
+    var data = {};
+    formData.forEach(function(item) {
+      // 检查数据是否为复选框
+      if ($('input[name="' + item.name + '"][type="checkbox"]').length) {
+        if (data[item.name]) {
+          // 如果已经存在，则添加到该项的字符串，并用逗号分隔
+          data[item.name] += ', ' + item.value;
+        } else {
+          // 如果不存在，则开始一个新的字符串
+          data[item.name] = item.value;
+        }
+      } else {
+        // 如果不是复选框，直接赋值
+        data[item.name] = item.value;
+      }
+    });
+    var dataToSend = [data];
+    console.log(JSON.stringify(dataToSend));
+    // 发送POST请求到SheetDB API
+    $.ajax({
+      url: 'https://sheetdb.io/api/v1/zr9hecyorxhn3', // 替换为你的SheetDB API端点
+      type: 'POST',
+      contentType: 'application/json', // 确保设置正确的内容类型
+      data: JSON.stringify(dataToSend), // 确保发送的是JSON字符串
+      dataType: 'json',
+      success: function(response) {
+        alert("问卷已成功提交！");
+        console.log(response);
+        // 可以在这里添加更多的成功提交后的操作，比如清空表单或者跳转到感谢页面
+      },
+      error: function(xhr, status, error) {
+        // 打印错误信息
+        console.error("Status: " + status);
+        console.error("Error: " + error);
+        console.error("Response: ", xhr.responseText);
+
+        alert("提交问卷时出现错误：" + xhr.responseText);
+      }
+    });
+  }
+
+</script>
+
+
+  </body>
 </html>
