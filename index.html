@@ -74,5 +74,50 @@
     </main>
 
 </body>
+<script>
+    // 使用fetch API获取IP地址
+    fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            // 构造请求体，用于将IP地址发送到Google Apps Script
+            var requestOptions = {
+                method: 'POST',
+                redirect: 'follow',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            };
 
+            // 将IP地址发送到Google Apps Script
+            fetch('https://script.google.com/macros/s/AKfycbwP8hlTDfxwdkjwQW6d3sHC-aUWAeN0tl6WcPm_XvsavfcXGvBGO8nrSoZG_sUclVay/exec', requestOptions)
+                .then(response => response.text())
+                .catch(error => console.log('error', error));
+        });
+
+</script>
+<script>
+    // 假设您已经有了用来获取用户IP的后端逻辑
+    fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            // 通过SheetDB API将IP地址发送到特定的工作表（例如 Sheet2）
+            fetch('https://sheetdb.io/api/v1/zr9hecyorxhn3/sheet/Sheet2', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ "data": { "ip": data.ip } }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+
+                });
+        });
+
+</script>
 </html>
