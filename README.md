@@ -1,2 +1,2 @@
 # FrankieeW.github.io-
-update 
+[LINK](https://blog.frankie.science)
