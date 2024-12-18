@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/frankiewang/Documents/GitHub/Blog/my-zen-blog",
+	"sourceRoot": "/Users/frankiewang/Documents/GitHub/Blog",
 	"sources": [
 		"themes/zen/assets/sass/styles.scss",
 		"themes/zen/assets/sass/_init.scss",
