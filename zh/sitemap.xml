@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://blog.frankie.science/zh/categories/</loc><xhtml:link rel="alternate" hreflang="en" href="https://blog.frankie.science/categories/"/><xhtml:link rel="alternate" hreflang="zh" href="https://blog.frankie.science/zh/categories/"/></url><url><loc>https://blog.frankie.science/zh/tags/</loc><xhtml:link rel="alternate" hreflang="en" href="https://blog.frankie.science/tags/"/><xhtml:link rel="alternate" hreflang="zh" href="https://blog.frankie.science/zh/tags/"/></url><url><loc>https://blog.frankie.science/zh/</loc><xhtml:link rel="alternate" hreflang="en" href="https://blog.frankie.science/"/><xhtml:link rel="alternate" hreflang="zh" href="https://blog.frankie.science/zh/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:51103/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:51103/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:51103/zh/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:51103/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:51103/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:51103/zh/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:51103/zh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:51103/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:51103/zh/"
+                />
+  </url>
+</urlset>
