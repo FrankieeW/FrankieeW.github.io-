@@ -1,0 +1,6 @@
+(() => {
+  // <stdin>
+  (function() {
+    "use strict";
+  })();
+})();
