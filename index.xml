@@ -1,10 +1,25 @@
-&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0"><channel><title>Frankie Wang's Academic Homepage &amp; Blog</title><link>https://blog.frankie.science/</link><description>An academic blog and research homepage for Frankie Wang.
-feedId:92478268826789888+userId:aZzJXJJr6HmhEhmmZNr9P</description><generator>Hugo</generator><item><title>Contact Me</title><link>https://blog.frankie.science/contact/</link><description>&lt;p>If you have any questions or want to collaborate, feel free to reach out to me at:&lt;/p>
-&lt;p>📧 &lt;strong>Email&lt;/strong>: &lt;a href="mailto:frankie.fa.wang@outlook.com">frankie.fa.wang@outlook.com&lt;/a>&lt;/p>
-feedId:92478268826789888+userId:aZzJXJJr6HmhEhmmZNr9P</description><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate></item><item><title>My Research</title><link>https://blog.frankie.science/research/</link><description>&lt;h3 id="current-projects">Current Projects:&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Project 1&lt;/strong>: Application of Category Theory in String Theory&lt;/li>
-&lt;li>&lt;strong>Project 2&lt;/strong>: PDEs on Calabi-Yau Manifolds&lt;/li>
-&lt;/ul>
-&lt;p>For more details, visit individual project pages or contact me.&lt;/p>
-feedId:92478268826789888+userId:aZzJXJJr6HmhEhmmZNr9P</description><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Frankie Wang&#39;s Academic Blog on Frankie Wang&#39;s Academic Homepage &amp; Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to Frankie Wang&#39;s Academic Blog on Frankie Wang&#39;s Academic Homepage &amp; Blog</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact Me</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;If you have any questions or want to collaborate, feel free to reach out to me at:&lt;/p&gt;&#xA;&lt;p&gt;📧 &lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:frankie.fa.wang@outlook.com&#34;&gt;frankie.fa.wang@outlook.com&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>My Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;h3 id=&#34;current-projects&#34;&gt;Current Projects:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project 1&lt;/strong&gt;: Application of Category Theory in String Theory&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project 2&lt;/strong&gt;: PDEs on Calabi-Yau Manifolds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more details, visit individual project pages or contact me.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
