@@ -1,0 +1,35 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "欢迎来到王枫诚的学术博客 on Frankie Wang's Academic Homepage & Blog",
+    "description": "Recent content in 欢迎来到王枫诚的学术博客 on Frankie Wang's Academic Homepage & Blog",
+    "home_page_url": "http://localhost:1313/",
+    "feed_url": "http://localhost:1313/zh/index.json",
+    "language": "zh-CN",
+    "icon": "http://localhost:1313/favicon.ico",
+    "favicon": "http://localhost:1313/favicon.ico",
+    "authors": [
+        {
+            "name": "Frankie Wang",
+            "url": "https://blog.frankie.science"
+        }
+    ],
+    "items": [
+        {
+            "title": "联系我",
+            "date_published": "0001-01-01T00:00:00Z",
+            "date_modified": "0001-01-01T00:00:00Z",
+            "id": "http://localhost:1313/zh/contact/",
+            "url": "http://localhost:1313/zh/contact/",
+            "content_html": "\u003cp\u003e如果您有任何问题或想要合作，欢迎通过以下方式联系我：\u003c/p\u003e\n\u003cp\u003e📧 \u003cstrong\u003e邮箱\u003c/strong\u003e: \u003ca href=\"mailto:frankie.fa.wang@outlook.com\"\u003efrankie.fa.wang@outlook.com\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "我的研究",
+            "date_published": "0001-01-01T00:00:00Z",
+            "date_modified": "0001-01-01T00:00:00Z",
+            "id": "http://localhost:1313/zh/research/",
+            "url": "http://localhost:1313/zh/research/",
+            "content_html": "\u003ch3 id=\"当前项目\"\u003e当前项目:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e项目 1\u003c/strong\u003e: 范畴论在弦理论中的应用\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e项目 2\u003c/strong\u003e: Calabi-Yau 流形上的偏微分方程\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e了解更多，请访问具体项目页面或直接联系我。\u003c/p\u003e\n"
+        }
+        ]
+}

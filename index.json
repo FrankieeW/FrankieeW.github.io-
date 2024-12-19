@@ -1,0 +1,35 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Welcome to Frankie Wang's Academic Blog on Frankie Wang's Academic Homepage & Blog",
+    "description": "Recent content in Welcome to Frankie Wang's Academic Blog on Frankie Wang's Academic Homepage & Blog",
+    "home_page_url": "http://localhost:1313/",
+    "feed_url": "http://localhost:1313/index.json",
+    "language": "en-GB",
+    "icon": "http://localhost:1313/favicon.ico",
+    "favicon": "http://localhost:1313/favicon.ico",
+    "authors": [
+        {
+            "name": "Frankie Wang",
+            "url": "https://blog.frankie.science"
+        }
+    ],
+    "items": [
+        {
+            "title": "Contact Me",
+            "date_published": "0001-01-01T00:00:00Z",
+            "date_modified": "0001-01-01T00:00:00Z",
+            "id": "http://localhost:1313/contact/",
+            "url": "http://localhost:1313/contact/",
+            "content_html": "\u003cp\u003eIf you have any questions or want to collaborate, feel free to reach out to me at:\u003c/p\u003e\n\u003cp\u003e📧 \u003cstrong\u003eEmail\u003c/strong\u003e: \u003ca href=\"mailto:frankie.fa.wang@outlook.com\"\u003efrankie.fa.wang@outlook.com\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "My Research",
+            "date_published": "0001-01-01T00:00:00Z",
+            "date_modified": "0001-01-01T00:00:00Z",
+            "id": "http://localhost:1313/research/",
+            "url": "http://localhost:1313/research/",
+            "content_html": "\u003ch3 id=\"current-projects\"\u003eCurrent Projects:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eProject 1\u003c/strong\u003e: Application of Category Theory in String Theory\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eProject 2\u003c/strong\u003e: PDEs on Calabi-Yau Manifolds\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eFor more details, visit individual project pages or contact me.\u003c/p\u003e\n"
+        }
+        ]
+}
