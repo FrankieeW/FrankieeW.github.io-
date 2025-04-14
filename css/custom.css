@@ -1,0 +1,25 @@
+.social-icon {
+    position: relative;
+    display: inline-block;
+  }
+
+  .social-icon::after {
+    content: attr(data-id);
+    position: absolute;
+    bottom: -1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #aaa;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+
+  .social-icon:hover::after {
+    opacity: 1;
+  }

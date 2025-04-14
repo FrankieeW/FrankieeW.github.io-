@@ -1,15 +1,13 @@
-@media print {
-  .print-none,
-  .pager,
-  .mobile-nav,
-  aside,
-  nav,
-  footer {
-    display: none; } }
+.pager,
+.mobile-nav,
+aside,
+nav,
+footer {
+  display: none; }
 
 @media print {
   html {
-    font-size: 12pt; }
+    font-size: var(--print-font-size); }
   html,
   body,
   .page {
