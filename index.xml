@@ -108,19 +108,19 @@
 &lt;/ul>
 &lt;p>For more details, visit individual project pages or contact me.&lt;/p></description></item><item><title>Search</title><link>https://blog.frankie.science/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.frankie.science/search/</guid><description>&lt;p>implements search with the help of the small and fast FlexSearch.js.&lt;/p>
 &lt;p class="error message js-hidden">You must have Javascript enabled to use this function.&lt;/p>
-&lt;p class="search-loading status message hidden">Loading search index…&lt;/p>
+&lt;p class="info message hidden" data-search-loading>Loading search index…&lt;/p>
 
-&lt;div class="search-input hidden">
- &lt;form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+&lt;div data-search-input class="hidden">
+ &lt;form data-search-form id="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
  &lt;label for="query" class="visually-hidden">Search&lt;/label>
- &lt;input type="search" id="query" name="query" class="search-text" placeholder="Enter the terms you wish to search for." maxlength="128">
+ &lt;input data-search-text type="search" id="query" name="query" placeholder="Enter the terms you wish to search for." maxlength="128">
  &lt;/form>
 &lt;/div>
 
-&lt;div class="search-results">&lt;/div>
+&lt;div data-search-results>&lt;/div>
 
 &lt;template>
- &lt;article class="search-result list-view">
+ &lt;article data-search-result class="list-view">
  &lt;header>
  &lt;h2 class="title mt--s mb--xxs">&lt;a href="#">Title here&lt;/a>&lt;/h2>
  &lt;div class="submitted">&lt;time class="created-date">Date here&lt;/time>&lt;/div>
