@@ -1,17 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portfolio on Frankie Wang</title><link>https://blog.frankie.science/portfolio/</link><description>Recent content in Portfolio on Frankie Wang</description><generator>Hugo</generator><language>en-GB</language><lastBuildDate>Mon, 14 Apr 2025 01:10:27 +0800</lastBuildDate><atom:link href="https://blog.frankie.science/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Portfolio</title><link>https://blog.frankie.science/portfolio/github/</link><pubDate>Mon, 14 Apr 2025 01:10:27 +0800</pubDate><guid>https://blog.frankie.science/portfolio/github/</guid><description>
-&lt;div class="gh-repo-card"&gt;
- &lt;a href="https://github.com/FrankieeW/DUT-letter-latex" target="_blank" rel="noopener"&gt;
- &lt;img src="https://opengraph.githubassets.com/1/FrankieeW/DUT-letter-latex"
- alt="DUT-letter-latex logo" class="repo-og-img"/&gt;
- &lt;h3&gt;DUT-letter-latex&lt;/h3&gt;
- &lt;/a&gt;
- 
- &lt;p class="stats"&gt;
- 
- 
- &lt;a img src="https://img.shields.io/github/stars/FrankieeW/DUT-letter-latex?style=flat-square"
- alt="Stars" class="repo-badge"/&gt;
- &lt;/p&gt;
- &lt;/div&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Portfolio on Frankie Wang</title><link>https://blog.frankie.science/portfolio/</link><description>Recent content in Portfolio on Frankie Wang</description><generator>Hugo -- 0.155.2</generator><language>en-GB</language><lastBuildDate>Thu, 05 Feb 2026 13:55:26 +0000</lastBuildDate><atom:link href="https://blog.frankie.science/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Portfolio</title><link>https://blog.frankie.science/portfolio/github/</link><pubDate>Mon, 14 Apr 2025 01:10:27 +0800</pubDate><guid>https://blog.frankie.science/portfolio/github/</guid><description>&lt;div class="gh-repo-card"&gt;
+&lt;a href="https://github.com/FrankieeW/DUT-letter-latex" target="_blank" rel="noopener"&gt;
+&lt;img src="https://opengraph.githubassets.com/1/FrankieeW/DUT-letter-latex"
+alt="DUT-letter-latex logo" class="repo-og-img"/&gt;
+&lt;h3&gt;DUT-letter-latex&lt;/h3&gt;
+&lt;/a&gt;
+&lt;p class="stats"&gt;
+&lt;a img src="https://img.shields.io/github/stars/FrankieeW/DUT-letter-latex?style=flat-square"
+alt="Stars" class="repo-badge"/&gt;
+&lt;/p&gt;
+&lt;/div&gt;
 &lt;hr&gt;</description></item></channel></rss>
