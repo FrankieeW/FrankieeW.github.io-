@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Research on Frankie Wang</title><link>https://blog.frankie.science/research/</link><description>Recent content in My Research on Frankie Wang</description><generator>Hugo</generator><language>en-GB</language><atom:link href="https://blog.frankie.science/research/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Research on Frankie Wang</title>
+    <link>http://localhost:1313/research/</link>
+    <description>Recent content in My Research on Frankie Wang</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+      <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

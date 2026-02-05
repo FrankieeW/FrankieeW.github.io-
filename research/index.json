@@ -1,1 +1,19 @@
-{"version":"https://jsonfeed.org/version/1.1","title":"My Research on Frankie Wang","description":"Recent content in My Research on Frankie Wang","home_page_url":"https://blog.frankie.science/","feed_url":"https://blog.frankie.science/research/index.json","language":"en-GB","icon":"https://blog.frankie.science/images/F.png","favicon":"https://blog.frankie.science/images/F.png","authors":[{"name":"Frankie Wang","url":"https://blog.frankie.science"}],"items":[]}
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "My Research on Frankie Wang",
+    "description": "Recent content in My Research on Frankie Wang",
+    "home_page_url": "http://localhost:1313/",
+    "feed_url": "http://localhost:1313/research/index.json",
+    "language": "en-GB",
+    "icon": "http://localhost:1313/images/F.png",
+    "favicon": "http://localhost:1313/images/F.png",
+    "authors": [
+        {
+            "name": "Frankie Wang",
+            "url": "https://blog.frankie.science"
+        }
+    ],
+    "items": [
+        ]
+}
